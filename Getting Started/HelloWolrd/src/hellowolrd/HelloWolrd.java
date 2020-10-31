@@ -44,7 +44,10 @@ public class HelloWolrd {
         double aDoubleVal = 3.1456326589523;
         int doubleToInt = (int)aDoubleVal;
         System.out.println("double -> " + aDoubleVal + ";  to int -> " + doubleToInt);
-        
+        byte StringToByte = Byte.parseByte(byteString);
+        System.out.println("String: " + byteString + " to byte -> " + StringToByte); 
+
+
         /*Print maximum size  */
         System.out.println(Byte.MAX_VALUE);
         System.out.println(Short.MAX_VALUE);
